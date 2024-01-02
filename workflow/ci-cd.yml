@@ -20,6 +20,6 @@ jobs:
 
         aws s3 sync ./ s3://vssproject.com
       env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_ACCESS_KEY_ID: M3Pc4ePuNmjAC7BvGnf7OSEBcuDFydNihxt0P7lY
+        AWS_SECRET_ACCESS_KEY: M3Pc4ePuNmjAC7BvGnf7OSEBcuDFydNihxt0P7lY
 
